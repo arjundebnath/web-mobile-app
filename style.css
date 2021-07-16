@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.h-90 {
+    height: 90vh;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: auto;
+    position: relative;
+}
+
+.row {
+    scroll-snap-align: start;
+    position: absolute;
+    width: 100%;
+    scroll-margin-bottom: -50px
+}
+
+.mt-90 {
+    margin-top: 90vh;
+}
+
+.mt-180 {
+    margin-top: 180vh;
+}
+
+.z-ind-10 {
+    z-index: 10;
+}
+
+.z-ind-100 {
+    z-index: 100;
+}
+
+.z-ind-1000 {
+    z-index: 1000;
+}
